@@ -14,8 +14,7 @@ export class ModalService {
 
   constructor() { }
 
-  register(id: string)
-  {
+  register(id: string) {
     this.modals.push ({
       id,
       visible: false
@@ -28,7 +27,7 @@ export class ModalService {
     )
   }
 
-  isModalOpen(id: string) : boolean{
+  isModalOpen(id: string) : boolean {
     return Boolean(this.modals.find(element => element.id === id)?.visible)
     //return !!this.modals.find(element => element.id === id)?.visible
   }
