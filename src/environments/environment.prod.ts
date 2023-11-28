@@ -5,7 +5,7 @@ export const environment = {
         authDomain: "clips-f1842.firebaseapp.com",
         projectId: "clips-f1842",
         storageBucket: "clips-f1842.appspot.com",
-        messagingSenderId: "304435818634",
+        //messagingSenderId: "304435818634",
         appId: "1:304435818634:web:72908ba155d282fdf1bd73"
       }
 };
