@@ -11,6 +11,8 @@ export class RegisterComponent {
 
   constructor(private auth: AngularFireAuth) {}
 
+  inSubmission = false
+
   name = new FormControl('', [
     Validators.required,
     Validators.minLength(3)
@@ -54,6 +56,7 @@ export class RegisterComponent {
     this.showAlert = true
     this.alertMsg = 'Please wait! Your account is being created.'
     this.alertColor = 'blue'
+    this.inSubmission = true
     
     const {email, password} = this.registerForm.value;
 
@@ -67,6 +70,7 @@ export class RegisterComponent {
 
       this.alertMsg = 'An unexpected error occured. Please try again later.'
       this.alertColor = 'red'
+      this.inSubmission = false
       return
     }
 
