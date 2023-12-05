@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/compat/firestore';
+import { getDocs, query, collection, where, limit, getFirestore} from '@angular/fire/firestore'
 import IUser from '../models/user.model';
 import { Observable, delay, map } from 'rxjs';
 
@@ -48,5 +49,18 @@ export class AuthService {
     await userCred.user.updateProfile({
       displayName: userData.name
     })
+  }
+
+  public async emailAlreadyExists(email: string) {
+
+    const dbQuery = getFirestore();
+
+    const querySnapshot = await getDocs(query(
+      collection(dbQuery, "users"),
+      where("email", "==", email),
+      limit(1)
+    ));
+  
+    return !querySnapshot.empty
   }
 }
