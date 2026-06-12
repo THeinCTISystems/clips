@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.6.2",
   "summary": {
     "title": "Internet of Things (IoT) Device",
     "owner": "A development team",
@@ -25,7 +25,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.3.0",
+        "version": "2.6.2",
         "cells": [
           {
             "position": {
@@ -541,19 +541,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -567,6 +576,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -576,20 +595,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "1de38445-7e55-4d56-8f50-e952f2b3ebae",
             "source": {
               "cell": "95963020-9749-4861-a73d-69252efe0607",
@@ -623,19 +628,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTP",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -649,6 +663,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -658,20 +682,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTP",
-              "threats": []
-            },
             "id": "f87ad0fe-7112-44f8-bafa-95aacf32f219",
             "source": {
               "cell": "95963020-9749-4861-a73d-69252efe0607",
@@ -705,19 +715,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -731,6 +750,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -740,20 +769,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "6c07f2c6-9950-4c05-853d-f1b13e5aff1c",
             "source": {
               "cell": "95963020-9749-4861-a73d-69252efe0607",
@@ -782,19 +797,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Broadcast",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "UPnP",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -808,6 +832,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -817,20 +851,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Broadcast",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "UPnP",
-              "threats": []
-            },
             "id": "6e7ed5e8-fa39-4f68-bac8-8c92aa929284",
             "source": {
               "cell": "ce817f62-e1bb-4bd1-9688-d0bfc659e18c",
@@ -864,19 +884,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTP",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTP",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -890,6 +919,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -899,20 +938,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "HTTP",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTP",
-              "threats": []
-            },
             "id": "7208e01a-3bb4-4378-a89e-d0938726ec42",
             "source": {
               "cell": "1c75b157-80ff-4371-9e70-53c2e08d2180",
@@ -946,19 +971,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTP",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTP",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -972,6 +1006,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -981,20 +1025,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "HTTP",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTP",
-              "threats": []
-            },
             "id": "f2e6fe81-c88b-4988-adbd-e075b87737a0",
             "source": {
               "cell": "505cf96e-1c01-436a-902e-2bdc553f5ae8",
@@ -1016,19 +1046,22 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  },
                   "labelText": {
                     "text": "Internet",
                     "textAnchor": "middle",
@@ -1042,6 +1075,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1051,14 +1094,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Internet",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
             "id": "ba970f89-050f-4ac8-9348-99e7ce31ef65",
             "source": {
               "x": 490,
@@ -1100,19 +1135,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1126,6 +1170,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1135,20 +1189,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "HTTPS",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": []
-            },
             "id": "d4ac0618-f5f5-4403-a26e-05e1cf9b153f",
             "source": {
               "cell": "f6a7e00e-50c6-4841-873d-e4b5ab8d3418",
@@ -1177,19 +1217,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS",
+              "description": "Periodically send a GET request to the API",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1203,6 +1252,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1212,20 +1271,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "HTTPS",
-              "description": "Periodically send a GET request to the API",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": []
-            },
             "id": "0d5542d3-7cd1-466b-9977-be1bc390fa61",
             "source": {
               "cell": "ce817f62-e1bb-4bd1-9688-d0bfc659e18c",
@@ -1259,19 +1304,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send command",
+              "description": "Periodically GET to the API and receive  a command to execute",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1285,6 +1339,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1294,20 +1358,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send command",
-              "description": "Periodically GET to the API and receive  a command to execute",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "a079af18-9e9b-4be2-a429-a50e5787ab5e",
             "source": {
               "cell": "a2f55276-c787-4145-a7f3-93bdd463638d",
@@ -1341,19 +1391,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1367,6 +1426,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1376,20 +1445,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "5c28e977-ff20-472b-afa5-23bccce4f13e",
             "source": {
               "cell": "a2f55276-c787-4145-a7f3-93bdd463638d",
@@ -1418,19 +1473,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1444,6 +1508,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1453,20 +1527,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "ff45cff8-394f-4703-b83c-998237997dbd",
             "source": {
               "cell": "ed4c65fd-debe-4184-a61b-bd8811672471",
@@ -1500,19 +1560,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1526,6 +1595,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1535,20 +1614,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "26bed594-da89-45a3-95e0-91dbd07db23a",
             "source": {
               "cell": "ed4c65fd-debe-4184-a61b-bd8811672471",
@@ -1582,19 +1647,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1608,6 +1682,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1617,20 +1701,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "0cddb1fb-0555-4a62-82a4-696c18ff5d58",
             "source": {
               "cell": "ccf9c030-638f-481b-8658-6b01a954f58d",
@@ -1659,19 +1729,28 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "",
                     "textAnchor": "middle",
@@ -1685,6 +1764,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -1694,20 +1783,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "fb25103b-03ac-44db-accc-ecaeebff7cbe",
             "source": {
               "cell": "ccf9c030-638f-481b-8658-6b01a954f58d",
@@ -2271,11 +2346,13 @@
                 "text": "MySQL\ndatabase"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2371,13 +2448,59 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "5d6c1c28-c95e-4270-a55a-d07ae1e5c782",
+                  "title": "Scraping",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "e52fc540-4e35-40e5-97c6-0685777d0dc5",
+                  "title": "Skewing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #16:\nAutomated repeated clicking or requesting or submitting content, affecting application based metrics such as counts, and measures of frequency and/or rate",
+                  "mitigation": "Defences include control of interaction frequency or proper enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "e4237538-eba5-4c60-9e10-9124caf12cf5",
+                  "title": "Spamming",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #17:\nStoring malicious such as malware, Iframe distribution, photographs & videos, advertisements, referrer spam and tracking/surveillance code",
+                  "mitigation": "Defences include detecting embedded malicious code, controling interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -2508,12 +2631,12 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 7,
-                  "score": ""
+                  "score": "5"
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -2535,8 +2658,8 @@
                 "text": "Cloud\nintegration"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2632,6 +2755,171 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "a00b47b9-496d-453e-9bf1-ade097bd5aeb",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "573103fc-10c7-4f82-83b8-e3295df3930f",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #14:\nSystematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Defence includes providing anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "bb3051cf-dd5f-44c9-9187-87b1b5e43460",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #15:\nUsage may resemble legitimate application usage but leads to exhaustion of resources",
+                  "mitigation": "Mitigation or prevention such as providing backoff, resource management and avoiding forced deadlock",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 190,
+              "y": 706
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "43d49602-fe6f-45ee-ac55-a9acaea93cde"
+                },
+                {
+                  "group": "right",
+                  "id": "2fdb4096-3fe6-4ee8-91c6-7d5adbf167ae"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4e820c1d-feb3-4346-b8df-6850e4617e30"
+                },
+                {
+                  "group": "left",
+                  "id": "d9235549-e6d6-475a-ae4a-ac88e81c418d"
+                }
+              ]
+            },
+            "id": "bbd72a25-0e01-4056-b0cf-0b701451f28b",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
@@ -2645,6 +2933,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "A security architect",
-    "threatTop": 7
+    "threatTop": 15
   }
 }
