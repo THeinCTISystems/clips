@@ -170,7 +170,7 @@
           {
             "position": {
               "x": 270,
-              "y": 210
+              "y": 200.00000000000009
             },
             "size": {
               "width": 80,
@@ -862,7 +862,11 @@
             },
             "vertices": [
               {
-                "x": 250,
+                "x": 340,
+                "y": 570
+              },
+              {
+                "x": 220,
                 "y": 570
               }
             ]
@@ -1038,83 +1042,6 @@
               {
                 "x": 230,
                 "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Internet",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Trust Boundary"
-                  },
-                  "labelText": {
-                    "text": "Internet",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "ba970f89-050f-4ac8-9348-99e7ce31ef65",
-            "source": {
-              "x": 490,
-              "y": 60
-            },
-            "target": {
-              "x": 430,
-              "y": 630
-            },
-            "vertices": [
-              {
-                "x": 520,
-                "y": 200
-              },
-              {
-                "x": 520,
-                "y": 310
-              },
-              {
-                "x": 490,
-                "y": 520
               }
             ]
           },
@@ -1796,6 +1723,87 @@
               {
                 "x": 817,
                 "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  },
+                  "labelText": {
+                    "text": "Internet",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "id": "ba970f89-050f-4ac8-9348-99e7ce31ef65",
+            "source": {
+              "x": 490,
+              "y": 60
+            },
+            "target": {
+              "x": 430,
+              "y": 630
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 200
+              },
+              {
+                "x": 520,
+                "y": 310
+              },
+              {
+                "x": 490,
+                "y": 520
+              },
+              {
+                "x": 490,
+                "y": 540
               }
             ]
           },
